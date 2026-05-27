@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/factory.ts","./src/main.tsx","./src/rendering.ts","./src/simulation.ts","./src/types.ts","./src/components/canvas.tsx","./src/components/infopanel.tsx","./src/components/presetsbar.tsx","./src/components/propertiespanel.tsx","./src/components/toolbar.tsx","./src/components/topbar.tsx"],"version":"5.9.3"}

@@ -1,0 +1,24 @@
+{
+  "name": "freecircuitsapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "scripts": {
+    "dev": "pnpm --filter @circuits/web dev",
+    "build": "pnpm --filter @circuits/web build",
+    "preview": "pnpm --filter @circuits/web preview",
+    "typecheck": "pnpm --filter @circuits/web exec tsc -b",
+    "test": "pnpm --filter @circuits/web exec tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/circuits.git"
+  }
+}

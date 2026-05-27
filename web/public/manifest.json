@@ -1,0 +1,8 @@
+{
+  "name": "Circuit Builder",
+  "short_name": "Circuits",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fefdfb",
+  "theme_color": "#5b7db1"
+}
