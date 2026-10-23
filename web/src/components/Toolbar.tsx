@@ -29,7 +29,7 @@ const TOOLS: ToolButton[] = [
 
 export default function Toolbar({ tool, onSelectTool }: ToolbarProps) {
   return (
-    <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 p-2 rounded-[var(--radius-card)] bg-[var(--color-panel)] border border-[var(--color-line)] shadow-lg max-h-[calc(100vh-24px)] overflow-y-auto">
+    <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 p-2 rounded-[var(--radius-card)] bg-[var(--color-panel)] border border-[var(--color-line)] shadow-lg max-h-[calc(100svh-24px)] overflow-y-auto">
       <div className="text-[10px] font-semibold tracking-wider uppercase text-[var(--color-muted)] px-1 mb-1">
         Tools
       </div>
